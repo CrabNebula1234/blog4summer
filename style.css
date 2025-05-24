@@ -1,0 +1,14 @@
+html {
+    font-family:'Courier New', Courier, monospace;
+    color:aquamarine;
+}
+body{
+    background-color:darkgreen
+}
+h1 {
+    font-size: 3rem;
+    font-family:'lucida handwriting';
+}
+p {
+    font-size: 1.2rem;
+}
