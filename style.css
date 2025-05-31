@@ -1,9 +1,10 @@
 html {
     font-family:'Courier New', Courier, monospace;
-    color:aquamarine;
+    color:rgb(255, 146, 222);
 }
 body{
-    background-color:darkgreen
+    background-color:rgb(110, 40, 76);
+    margin: 0;
 }
 h1 {
     font-size: 3rem;
@@ -11,4 +12,26 @@ h1 {
 }
 p {
     font-size: 1.2rem;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+.highlight {
+    font-weight: 900;
+    color:white;  
+}
+#header {
+    background-image: url("https://www.fairmont-empress.com/content/uploads/2023/02/pink-blossoms-on-cherry-tree-in-spring-2022-11-11-20-54-57-utc-copy-scaled.jpg");
+    background-size: cover; 
+    height: 20rem; 
+    color:darkviolet; 
+    font-size: 2rem; 
+    border-radius: 0 0 1.2em 1.2em; 
+    
+    display: flex;
+    align-items: center; 
+    flex-direction: column; 
+    padding-bottom: 5%; 
 }
