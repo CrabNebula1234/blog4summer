@@ -1,11 +1,15 @@
 let myname="Avery";
-let myage=13; 
+let age=13; 
 let likesushi=true; 
 
 function greeter(myname) {
-    console.log("Hello, my name is",myname)
+    console.log("Hello, ",myname)
 }
 
 greeter("Avery")
 
-let newname = document.getElementById("greeter").value;
+function saveName() {
+    let newName = document.getElementById("greeter").value; //text field value from the user
+    document.getElementById('username').textContent = newName; 
+    document.getElementById("greeter").value = ""; 
+}

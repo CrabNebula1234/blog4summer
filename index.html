@@ -12,11 +12,19 @@
     <body>
 
         <!-- TYPE CODE BELOW -->
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About the Author</a></li>
+            </ul>
+        </nav>
+        
         <div id="header">
-            <h3>Welcome, <span id="username">_____</span></h3>
+            <h3>Welcome, <span id="username">_____</span>!</h3>
             <span>
                 <input id="greeter" type="text">
-                <button id="save-name">Save</button>
+                <button id="save-name" onclick="saveName()">Save</button>
             </span>
         </div>
         
