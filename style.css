@@ -25,8 +25,8 @@ h3 {
 #header {
     background-image: url("https://www.fairmont-empress.com/content/uploads/2023/02/pink-blossoms-on-cherry-tree-in-spring-2022-11-11-20-54-57-utc-copy-scaled.jpg");
     background-size: cover; 
-    height: 20rem; 
-    color:darkviolet; 
+    height: 35rem; 
+    color:rgb(103, 13, 141); 
     font-size: 2rem; 
     border-radius: 0 0 1.2em 1.2em; 
     
@@ -83,9 +83,6 @@ h3 {
     background-color:rgb(194, 95, 236)
 }
 
-.hidden {
-    display: none !important;
-}
 .blog-entry {
     display: flex;
     align-items: center;
@@ -93,6 +90,10 @@ h3 {
     padding-right: 2%;
     margin-bottom: 2em;
 }
+.hidden {
+    display: none;
+}
+
 .blog-entry img {
     width: 30%;
     border-radius: 0 1.5em 1.5em 0;
